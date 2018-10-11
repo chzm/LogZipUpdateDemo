@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1489DAD87705DF74705E2DA6 /* libPods-LogZipUpdateDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAAE9F381F5603471EF3C84 /* libPods-LogZipUpdateDemo.a */; };
+		BBEB22DA216F8D6600787B95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEB22D9216F8D6600787B95 /* AppDelegate.m */; };
+		BBEB22DD216F8D6600787B95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEB22DC216F8D6600787B95 /* ViewController.m */; };
+		BBEB22E0216F8D6600787B95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEB22DE216F8D6600787B95 /* Main.storyboard */; };
+		BBEB22E2216F8D6600787B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBEB22E1216F8D6600787B95 /* Assets.xcassets */; };
+		BBEB22E5216F8D6600787B95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBEB22E3216F8D6600787B95 /* LaunchScreen.storyboard */; };
+		BBEB22E8216F8D6600787B95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEB22E7216F8D6600787B95 /* main.m */; };
+		BBEB22F2216F8D6600787B95 /* LogZipUpdateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEB22F1216F8D6600787B95 /* LogZipUpdateDemoTests.m */; };
+		BBEB22FD216F8D6600787B95 /* LogZipUpdateDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEB22FC216F8D6600787B95 /* LogZipUpdateDemoUITests.m */; };
+		BBEB2313216F8E1000787B95 /* LogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEB230C216F8E1000787B95 /* LogManager.m */; };
+		BBEB2314216F8E1000787B95 /* ZMLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEB230D216F8E1000787B95 /* ZMLogView.m */; };
+		BBEB2315216F8E1000787B95 /* ZMAliOSSManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEB2311216F8E1000787B95 /* ZMAliOSSManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBEB22EE216F8D6600787B95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBEB22CD216F8D6600787B95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBEB22D4216F8D6600787B95;
+			remoteInfo = LogZipUpdateDemo;
+		};
+		BBEB22F9216F8D6600787B95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBEB22CD216F8D6600787B95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBEB22D4216F8D6600787B95;
+			remoteInfo = LogZipUpdateDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090B8B639218C6D32D9C019B /* Pods-LogZipUpdateDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogZipUpdateDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LogZipUpdateDemo/Pods-LogZipUpdateDemo.release.xcconfig"; sourceTree = "<group>"; };
+		64A951AE82B70DE570529273 /* Pods-LogZipUpdateDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogZipUpdateDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LogZipUpdateDemo/Pods-LogZipUpdateDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BBEB22D5216F8D6600787B95 /* LogZipUpdateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogZipUpdateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEB22D8216F8D6600787B95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBEB22D9216F8D6600787B95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBEB22DB216F8D6600787B95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BBEB22DC216F8D6600787B95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBEB22DF216F8D6600787B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBEB22E1216F8D6600787B95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBEB22E4216F8D6600787B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBEB22E6216F8D6600787B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEB22E7216F8D6600787B95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBEB22ED216F8D6600787B95 /* LogZipUpdateDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogZipUpdateDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEB22F1216F8D6600787B95 /* LogZipUpdateDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogZipUpdateDemoTests.m; sourceTree = "<group>"; };
+		BBEB22F3216F8D6600787B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEB22F8216F8D6600787B95 /* LogZipUpdateDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogZipUpdateDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEB22FC216F8D6600787B95 /* LogZipUpdateDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogZipUpdateDemoUITests.m; sourceTree = "<group>"; };
+		BBEB22FE216F8D6600787B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBEB230C216F8E1000787B95 /* LogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogManager.m; sourceTree = "<group>"; };
+		BBEB230D216F8E1000787B95 /* ZMLogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMLogView.m; sourceTree = "<group>"; };
+		BBEB230E216F8E1000787B95 /* ZMLogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMLogView.h; sourceTree = "<group>"; };
+		BBEB230F216F8E1000787B95 /* LogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogManager.h; sourceTree = "<group>"; };
+		BBEB2311216F8E1000787B95 /* ZMAliOSSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMAliOSSManager.m; sourceTree = "<group>"; };
+		BBEB2312216F8E1000787B95 /* ZMAliOSSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMAliOSSManager.h; sourceTree = "<group>"; };
+		FFAAE9F381F5603471EF3C84 /* libPods-LogZipUpdateDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LogZipUpdateDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBEB22D2216F8D6600787B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1489DAD87705DF74705E2DA6 /* libPods-LogZipUpdateDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB22EA216F8D6600787B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB22F5216F8D6600787B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A908B66535E13ADABD9F9C46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFAAE9F381F5603471EF3C84 /* libPods-LogZipUpdateDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBEB22CC216F8D6600787B95 = {
+			isa = PBXGroup;
+			children = (
+				BBEB22D7216F8D6600787B95 /* LogZipUpdateDemo */,
+				BBEB22F0216F8D6600787B95 /* LogZipUpdateDemoTests */,
+				BBEB22FB216F8D6600787B95 /* LogZipUpdateDemoUITests */,
+				BBEB22D6216F8D6600787B95 /* Products */,
+				F17B3AD5B667C51E0CAF02BF /* Pods */,
+				A908B66535E13ADABD9F9C46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BBEB22D6216F8D6600787B95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB22D5216F8D6600787B95 /* LogZipUpdateDemo.app */,
+				BBEB22ED216F8D6600787B95 /* LogZipUpdateDemoTests.xctest */,
+				BBEB22F8216F8D6600787B95 /* LogZipUpdateDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBEB22D7216F8D6600787B95 /* LogZipUpdateDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB230A216F8E1000787B95 /* ZMTools */,
+				BBEB22D8216F8D6600787B95 /* AppDelegate.h */,
+				BBEB22D9216F8D6600787B95 /* AppDelegate.m */,
+				BBEB22DB216F8D6600787B95 /* ViewController.h */,
+				BBEB22DC216F8D6600787B95 /* ViewController.m */,
+				BBEB22DE216F8D6600787B95 /* Main.storyboard */,
+				BBEB22E1216F8D6600787B95 /* Assets.xcassets */,
+				BBEB22E3216F8D6600787B95 /* LaunchScreen.storyboard */,
+				BBEB22E6216F8D6600787B95 /* Info.plist */,
+				BBEB22E7216F8D6600787B95 /* main.m */,
+			);
+			path = LogZipUpdateDemo;
+			sourceTree = "<group>";
+		};
+		BBEB22F0216F8D6600787B95 /* LogZipUpdateDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB22F1216F8D6600787B95 /* LogZipUpdateDemoTests.m */,
+				BBEB22F3216F8D6600787B95 /* Info.plist */,
+			);
+			path = LogZipUpdateDemoTests;
+			sourceTree = "<group>";
+		};
+		BBEB22FB216F8D6600787B95 /* LogZipUpdateDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB22FC216F8D6600787B95 /* LogZipUpdateDemoUITests.m */,
+				BBEB22FE216F8D6600787B95 /* Info.plist */,
+			);
+			path = LogZipUpdateDemoUITests;
+			sourceTree = "<group>";
+		};
+		BBEB230A216F8E1000787B95 /* ZMTools */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB230B216F8E1000787B95 /* LogManager */,
+				BBEB2310216F8E1000787B95 /* AliyunOSSManager */,
+			);
+			path = ZMTools;
+			sourceTree = "<group>";
+		};
+		BBEB230B216F8E1000787B95 /* LogManager */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB230C216F8E1000787B95 /* LogManager.m */,
+				BBEB230D216F8E1000787B95 /* ZMLogView.m */,
+				BBEB230E216F8E1000787B95 /* ZMLogView.h */,
+				BBEB230F216F8E1000787B95 /* LogManager.h */,
+			);
+			path = LogManager;
+			sourceTree = "<group>";
+		};
+		BBEB2310216F8E1000787B95 /* AliyunOSSManager */ = {
+			isa = PBXGroup;
+			children = (
+				BBEB2311216F8E1000787B95 /* ZMAliOSSManager.m */,
+				BBEB2312216F8E1000787B95 /* ZMAliOSSManager.h */,
+			);
+			path = AliyunOSSManager;
+			sourceTree = "<group>";
+		};
+		F17B3AD5B667C51E0CAF02BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64A951AE82B70DE570529273 /* Pods-LogZipUpdateDemo.debug.xcconfig */,
+				090B8B639218C6D32D9C019B /* Pods-LogZipUpdateDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBEB22D4216F8D6600787B95 /* LogZipUpdateDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEB2301216F8D6600787B95 /* Build configuration list for PBXNativeTarget "LogZipUpdateDemo" */;
+			buildPhases = (
+				E65A278D79E3B8DF1D9BDE39 /* [CP] Check Pods Manifest.lock */,
+				BBEB22D1216F8D6600787B95 /* Sources */,
+				BBEB22D2216F8D6600787B95 /* Frameworks */,
+				BBEB22D3216F8D6600787B95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogZipUpdateDemo;
+			productName = LogZipUpdateDemo;
+			productReference = BBEB22D5216F8D6600787B95 /* LogZipUpdateDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBEB22EC216F8D6600787B95 /* LogZipUpdateDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEB2304216F8D6600787B95 /* Build configuration list for PBXNativeTarget "LogZipUpdateDemoTests" */;
+			buildPhases = (
+				BBEB22E9216F8D6600787B95 /* Sources */,
+				BBEB22EA216F8D6600787B95 /* Frameworks */,
+				BBEB22EB216F8D6600787B95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBEB22EF216F8D6600787B95 /* PBXTargetDependency */,
+			);
+			name = LogZipUpdateDemoTests;
+			productName = LogZipUpdateDemoTests;
+			productReference = BBEB22ED216F8D6600787B95 /* LogZipUpdateDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBEB22F7216F8D6600787B95 /* LogZipUpdateDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBEB2307216F8D6600787B95 /* Build configuration list for PBXNativeTarget "LogZipUpdateDemoUITests" */;
+			buildPhases = (
+				BBEB22F4216F8D6600787B95 /* Sources */,
+				BBEB22F5216F8D6600787B95 /* Frameworks */,
+				BBEB22F6216F8D6600787B95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBEB22FA216F8D6600787B95 /* PBXTargetDependency */,
+			);
+			name = LogZipUpdateDemoUITests;
+			productName = LogZipUpdateDemoUITests;
+			productReference = BBEB22F8216F8D6600787B95 /* LogZipUpdateDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBEB22CD216F8D6600787B95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = chenzm;
+				TargetAttributes = {
+					BBEB22D4216F8D6600787B95 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					BBEB22EC216F8D6600787B95 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BBEB22D4216F8D6600787B95;
+					};
+					BBEB22F7216F8D6600787B95 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BBEB22D4216F8D6600787B95;
+					};
+				};
+			};
+			buildConfigurationList = BBEB22D0216F8D6600787B95 /* Build configuration list for PBXProject "LogZipUpdateDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBEB22CC216F8D6600787B95;
+			productRefGroup = BBEB22D6216F8D6600787B95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBEB22D4216F8D6600787B95 /* LogZipUpdateDemo */,
+				BBEB22EC216F8D6600787B95 /* LogZipUpdateDemoTests */,
+				BBEB22F7216F8D6600787B95 /* LogZipUpdateDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBEB22D3216F8D6600787B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEB22E5216F8D6600787B95 /* LaunchScreen.storyboard in Resources */,
+				BBEB22E2216F8D6600787B95 /* Assets.xcassets in Resources */,
+				BBEB22E0216F8D6600787B95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB22EB216F8D6600787B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB22F6216F8D6600787B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E65A278D79E3B8DF1D9BDE39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LogZipUpdateDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBEB22D1216F8D6600787B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEB2313216F8E1000787B95 /* LogManager.m in Sources */,
+				BBEB22DD216F8D6600787B95 /* ViewController.m in Sources */,
+				BBEB2314216F8E1000787B95 /* ZMLogView.m in Sources */,
+				BBEB22E8216F8D6600787B95 /* main.m in Sources */,
+				BBEB22DA216F8D6600787B95 /* AppDelegate.m in Sources */,
+				BBEB2315216F8E1000787B95 /* ZMAliOSSManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB22E9216F8D6600787B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEB22F2216F8D6600787B95 /* LogZipUpdateDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEB22F4216F8D6600787B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBEB22FD216F8D6600787B95 /* LogZipUpdateDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBEB22EF216F8D6600787B95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBEB22D4216F8D6600787B95 /* LogZipUpdateDemo */;
+			targetProxy = BBEB22EE216F8D6600787B95 /* PBXContainerItemProxy */;
+		};
+		BBEB22FA216F8D6600787B95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBEB22D4216F8D6600787B95 /* LogZipUpdateDemo */;
+			targetProxy = BBEB22F9216F8D6600787B95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBEB22DE216F8D6600787B95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBEB22DF216F8D6600787B95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBEB22E3216F8D6600787B95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBEB22E4216F8D6600787B95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBEB22FF216F8D6600787B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BBEB2300216F8D6600787B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBEB2302216F8D6600787B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A951AE82B70DE570529273 /* Pods-LogZipUpdateDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y768B7VZ57;
+				INFOPLIST_FILE = LogZipUpdateDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.LogZipUpdateDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBEB2303216F8D6600787B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 090B8B639218C6D32D9C019B /* Pods-LogZipUpdateDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y768B7VZ57;
+				INFOPLIST_FILE = LogZipUpdateDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.LogZipUpdateDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBEB2305216F8D6600787B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y768B7VZ57;
+				INFOPLIST_FILE = LogZipUpdateDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.LogZipUpdateDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogZipUpdateDemo.app/LogZipUpdateDemo";
+			};
+			name = Debug;
+		};
+		BBEB2306216F8D6600787B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y768B7VZ57;
+				INFOPLIST_FILE = LogZipUpdateDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.LogZipUpdateDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogZipUpdateDemo.app/LogZipUpdateDemo";
+			};
+			name = Release;
+		};
+		BBEB2308216F8D6600787B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y768B7VZ57;
+				INFOPLIST_FILE = LogZipUpdateDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.LogZipUpdateDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LogZipUpdateDemo;
+			};
+			name = Debug;
+		};
+		BBEB2309216F8D6600787B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y768B7VZ57;
+				INFOPLIST_FILE = LogZipUpdateDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.LogZipUpdateDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LogZipUpdateDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBEB22D0216F8D6600787B95 /* Build configuration list for PBXProject "LogZipUpdateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEB22FF216F8D6600787B95 /* Debug */,
+				BBEB2300216F8D6600787B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBEB2301216F8D6600787B95 /* Build configuration list for PBXNativeTarget "LogZipUpdateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEB2302216F8D6600787B95 /* Debug */,
+				BBEB2303216F8D6600787B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBEB2304216F8D6600787B95 /* Build configuration list for PBXNativeTarget "LogZipUpdateDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEB2305216F8D6600787B95 /* Debug */,
+				BBEB2306216F8D6600787B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBEB2307216F8D6600787B95 /* Build configuration list for PBXNativeTarget "LogZipUpdateDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBEB2308216F8D6600787B95 /* Debug */,
+				BBEB2309216F8D6600787B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBEB22CD216F8D6600787B95 /* Project object */;
+}
