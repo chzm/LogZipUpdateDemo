@@ -63,6 +63,7 @@
 		BBEB230F216F8E1000787B95 /* LogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogManager.h; sourceTree = "<group>"; };
 		BBEB2311216F8E1000787B95 /* ZMAliOSSManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMAliOSSManager.m; sourceTree = "<group>"; };
 		BBEB2312216F8E1000787B95 /* ZMAliOSSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMAliOSSManager.h; sourceTree = "<group>"; };
+		BBEB23162170368400787B95 /* ZMLogZipOssHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMLogZipOssHeader.h; sourceTree = "<group>"; };
 		FFAAE9F381F5603471EF3C84 /* libPods-LogZipUpdateDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LogZipUpdateDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -160,6 +161,7 @@
 		BBEB230A216F8E1000787B95 /* ZMTools */ = {
 			isa = PBXGroup;
 			children = (
+				BBEB23162170368400787B95 /* ZMLogZipOssHeader.h */,
 				BBEB230B216F8E1000787B95 /* LogManager */,
 				BBEB2310216F8E1000787B95 /* AliyunOSSManager */,
 			);
@@ -169,10 +171,10 @@
 		BBEB230B216F8E1000787B95 /* LogManager */ = {
 			isa = PBXGroup;
 			children = (
-				BBEB230C216F8E1000787B95 /* LogManager.m */,
-				BBEB230D216F8E1000787B95 /* ZMLogView.m */,
-				BBEB230E216F8E1000787B95 /* ZMLogView.h */,
 				BBEB230F216F8E1000787B95 /* LogManager.h */,
+				BBEB230C216F8E1000787B95 /* LogManager.m */,
+				BBEB230E216F8E1000787B95 /* ZMLogView.h */,
+				BBEB230D216F8E1000787B95 /* ZMLogView.m */,
 			);
 			path = LogManager;
 			sourceTree = "<group>";
@@ -180,8 +182,8 @@
 		BBEB2310216F8E1000787B95 /* AliyunOSSManager */ = {
 			isa = PBXGroup;
 			children = (
-				BBEB2311216F8E1000787B95 /* ZMAliOSSManager.m */,
 				BBEB2312216F8E1000787B95 /* ZMAliOSSManager.h */,
+				BBEB2311216F8E1000787B95 /* ZMAliOSSManager.m */,
 			);
 			path = AliyunOSSManager;
 			sourceTree = "<group>";

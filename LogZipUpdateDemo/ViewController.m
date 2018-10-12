@@ -7,9 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "LogManager.h"
-#import "ZMLogView.h"
-#import "ZMAliOSSManager.h"
+#import "ZMLogZipOssHeader.h"
 
 @interface ViewController ()
 
